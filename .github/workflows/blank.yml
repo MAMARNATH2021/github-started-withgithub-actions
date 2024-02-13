@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Getting started
 
 # Controls when the workflow will run
 on:
@@ -44,5 +44,7 @@ jobs:
           mvn --version
           gradle --version
           ant --version
+          what environment variables available?
+          env
           
           
